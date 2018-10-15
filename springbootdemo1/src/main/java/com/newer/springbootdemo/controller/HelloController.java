@@ -15,7 +15,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
 
-
+  //返回内容
         return "hello world!";
     }
 }
